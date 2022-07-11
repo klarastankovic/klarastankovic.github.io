@@ -1,5 +1,5 @@
-# Repozitorij moje osobne web stranice
+# Repozitory of my website
 
-Ovdje će se nalaziti HTML/CSS/Javascript koji čini moju osobnu web stranicu.
+Here is HTML/CSS/Javascript of my website.
 
-Adresa web stranice jest https://klarastankovic.github.io 
+Website adress: https://klarastankovic.github.io 
