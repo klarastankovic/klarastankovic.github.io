@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .main-nav {
@@ -22,6 +22,7 @@
 .main-nav .main-menu li {
     display: inline-block;
     margin-left: 15px;
+    font-size: 16px;
 }
 
 .main-nav .main-menu li a {
@@ -33,6 +34,8 @@
 .main-nav .col-md-9 {
     margin-top: 2.5px;
 }
+
+/*main*/
 
 .hero-section h1 {
     text-align: center;
@@ -62,6 +65,8 @@
     margin-top: 75px;
 }
 
+/*hero-section index.html*/
+
 .servises-section h2 {
     text-align: center;
     font-weight: bold;
@@ -71,7 +76,7 @@
 
 .servises-section h3 {
     text-align: center;
-    font-size: 18px;
+    font-size: 24px;
     padding-top: 15px;
     padding-bottom: 10px
 }
@@ -106,16 +111,19 @@
 }
 
 .servises-section .image {
-    padding-top: 50px;
+    padding-top: 40px;
     padding-bottom: 20px;
 }
 
 .servises-section .col-md-12 ul {
-    padding-bottom: 80px;
+    padding-bottom: 60px;
     list-style: none;
     text-align: left;
-    margin-left: 200px;
+    font-size: 18px;
+    margin: 0 20px;
 }
+
+/*services-section index.html*/
 
 .featured-projects h2 {
     font-weight: bold;
@@ -192,6 +200,79 @@
     transition: 0.3s;
 }
 
+/*featured-projects index.html*/
+
+.hero-section2 {
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 75px;
+}
+
+.hero-section3 {
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 75px;
+}
+
+/*hero-section contact.html*/
+
+.contact-section {
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.contact-section .col-md-12 {
+    text-align: center;
+}
+
+.contact-section .image {
+    padding-bottom: 50px;
+}
+
+.contact-section img {
+    border-radius: 50%;
+    width: 10%;
+}
+
+.contact-section .mail {
+    padding: 0 5px;
+    border: 2px outset #fff;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contact-section .mail:hover {
+    border: 2px outset #000;
+    background-color: #000;
+    transition: 0.3s;
+}
+
+.contact-section .fa:hover {
+    color: #fff;
+    transition: 0.3s;
+}
+
+.contact-section p {
+    font-size: 18px;
+}
+
+/*contact-section contact.html*/
+
 footer {
     background-color: #000;
     color: #fff;
@@ -199,3 +280,5 @@ footer {
     width: 100%;
     padding-top: 15px;
 }
+
+/*footer*/
