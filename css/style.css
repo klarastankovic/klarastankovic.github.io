@@ -89,6 +89,7 @@
 .servises-section .col-md-6 .container {
     background-color: #000;
     color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .servises-section .col-md-6 .container h3 {
@@ -114,7 +115,77 @@
 }
 
 .featured-projects h2 {
+    font-weight: bold;
     text-align: center;
     padding-top: 100px;
     padding-bottom: 50px;
+}
+
+.featured-projects .project {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 35px;
+}
+
+.featured-projects .project .image {
+    height: 250px;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+}
+
+.featured-projects .project h3 {
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.featured-projects .project a {
+    display: inline-block;
+    border: 2px outset #fff;
+    border-radius: 5%;
+    padding: 4px 8px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.featured-projects .project a:hover {
+    color: #000;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.featured-projects .button {
+    text-align: center;
+    color: #fff;
+    padding-top: 25px;
+    padding-bottom: 65px;
+}
+
+.featured-projects .button a {
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 2px outset #fff;
+    border-radius: 5%;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.featured-projects .button a:hover {
+    background-color: #fff;
+    color: #000;
+    transition: 0.3s;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding-top: 15px;
 }
