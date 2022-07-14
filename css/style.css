@@ -237,12 +237,16 @@
     margin: auto;
 }
 
-.about-section .slidesshow-container .slide {
+.about-section .slidesshow-container .slide,
+.slide2,
+.slide3 {
     display: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.about-section .slidesshow-container .prev {
+.about-section .slidesshow-container .prev,
+.prev2,
+.prev3 {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -259,7 +263,9 @@
     user-select: none;
 }
 
-.about-section .slidesshow-container .next {
+.about-section .slidesshow-container .next,
+.next2,
+.next3 {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -277,22 +283,26 @@
     right: 0;
 }
 
-.about-section .slidesshow-container .prev:hover {
+.about-section .slidesshow-container .prev:hover,
+.next:hover,
+.prev2:hover,
+.next2:hover,
+.prev3,
+.next3 {
     background-color: rgba(0, 0, 0, 0.8);
     transition: 0.3s;
 }
 
-.about-section .slidesshow-container .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-    transition: 0.3s;
-}
-
-.about-section .dots {
+.about-section .dots,
+.dots2,
+.dots3 {
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 65px;
 }
 
-.about-section .dots .dot {
+.about-section .dot,
+.dot2,
+.dot3 {
     cursor: pointer;
     height: 4px;
     width: 20px;
@@ -304,6 +314,16 @@
 
 .about-section .dots .active,
 .dot:hover {
+    background-color: #717171;
+}
+
+.about-section .dots2 .active,
+.dot2:hover {
+    background-color: #717171;
+}
+
+.about-section .dots3 .active,
+.dot3:hover {
     background-color: #717171;
 }
 
