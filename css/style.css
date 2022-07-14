@@ -8,9 +8,7 @@
     background-color: #000;
     height: 75px;
     color: #fff;
-    overflow: hidden;
     width: 100%;
-    position: fixed;
     top: 0;
 }
 
@@ -62,7 +60,6 @@
     padding-top: 200px;
     padding-bottom: 200px;
     background-size: cover;
-    margin-top: 75px;
 }
 
 /*hero-section index.html*/
@@ -212,7 +209,6 @@
     font-weight: bold;
     padding-top: 50px;
     padding-bottom: 50px;
-    margin-top: 75px;
 }
 
 /*hero-section projects.html*/
@@ -313,7 +309,7 @@
 
 /*about-section projects.html*/
 
-te .hero-section3 {
+.hero-section3 {
     background-image: url('../images/hero.jpg');
     background-size: cover;
     color: #fff;
@@ -323,7 +319,6 @@ te .hero-section3 {
     font-weight: bold;
     padding-top: 50px;
     padding-bottom: 50px;
-    margin-top: 75px;
 }
 
 /*hero-section contact.html*/
