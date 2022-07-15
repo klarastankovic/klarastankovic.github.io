@@ -1,3 +1,42 @@
+const mainnavSlide = () => {
+    const togglebutton = document.querySelector(".toggle-button");
+    const mainnav = document.querySelector(".main-menu");
+
+    togglebutton.addEventListener("click", () => {
+        mainnav.classList.toggle("nav-active");
+
+        togglebutton.classList.toggle('toggle');
+    })
+}
+
+mainnavSlide();
+
+/*toggle-button*/
+
+const scrollButton = document.querySelector(".scroll-button");
+
+const refreshButtonVisibility = () => {
+    if (document.documentElement.scrollTop <= 150) {
+        scrollButton.style.display = "none";
+    }
+    else {
+        scrollButton.style.display = "block";
+    }
+}
+
+refreshButtonVisibility();
+
+scrollButton.addEventListener("click", () => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+});
+
+document.addEventListener("scroll", (e) => {
+    refreshButtonVisibility();
+});
+
+/*scroll-button*/
+
 let slideIndex = 1;
 showSlides(slideIndex);
 showSlides2(slideIndex);
@@ -27,6 +66,8 @@ function showSlides(n) {
     dots[slideIndex - 1].className += " active";
 }
 
+/*showslide-website projects.hmtl*/
+
 function plusSlides2(n) {
     showSlides2(slideIndex += n);
 }
@@ -51,6 +92,8 @@ function showSlides2(n) {
     dots2[slideIndex - 1].className += " active";
 }
 
+/*showslide-games projects.hmtl*/
+
 function plusSlides3(n) {
     showSlides3(slideIndex += n);
 }
@@ -74,3 +117,5 @@ function showSlides3(n) {
     slides3[slideIndex - 1].style.display = "block";
     dots3[slideIndex - 1].className += " active";
 }
+
+/*showslide-graphics projects.hmtl*/
